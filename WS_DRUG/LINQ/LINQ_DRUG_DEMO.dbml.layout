@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="LINQ_DRUG_DEMO">
+  <DataContextMoniker Name="/LINQ_DRUG_DEMODataContext" />
+  <nestedChildShapes>
+    <classShape Id="8726ec56-de7c-4690-9646-a114c7da9fff" absoluteBounds="1.25, 1, 2, 1.9631982421875">
+      <DataClassMoniker Name="/LINQ_DRUG_DEMODataContext/TESTANGULAR_LOG" />
+      <nestedChildShapes>
+        <elementListCompartment Id="fea4f502-659a-416b-a60c-c634157f6f5a" absoluteBounds="1.2649999999999997, 1.46, 1.9700000000000002, 1.4031982421875" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>

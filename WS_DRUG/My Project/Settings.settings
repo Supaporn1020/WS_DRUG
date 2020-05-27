@@ -1,0 +1,18 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="My" GeneratedClassName="MySettings" UseMySettingsClassName="true">
+  <Profiles />
+  <Settings>
+    <Setting Name="WS_DRUG_WS_BLOCKCHAIN_WS_BLOCKCHAIN" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">http://10.111.28.66/FDA_BLOCKV2/WS_BLOCKCHAIN.asmx</Value>
+    </Setting>
+    <Setting Name="WS_DRUG_DRUG_INSERT_DR_WS_DRUG" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">http://archive.fda.moph.go.th/WS_DRUG_UPDATE_LCN/WS_DRUG_LCN/WS_DRUG.asmx</Value>
+    </Setting>
+    <Setting Name="WS_DRUG_WS_DRUGG_WS_DRUG" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">http://regis.fda.moph.go.th/WS_XML_CENTER/WS_XML_CEN/WS_DRUG.asmx</Value>
+    </Setting>
+    <Setting Name="WS_DRUG_WS_MAIL_FDA_MAIL" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">http://164.115.28.108/Mail/FDA_MAIL.asmx</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>
