@@ -37,7 +37,7 @@
             Next
         End Sub
         Public Sub GETDATA_BY_Newcode_U(ByVal Newcode As String)
-            datas = (From p In db.XML_SEARCH_PRODUCT_GROUP_ESUBs Where p.Newcode_U = Newcode Select p)
+            datas = (From p In db.XML_SEARCH_PRODUCT_GROUP_ESUBs Where p.Newcode_U = Newcode And p.GROUPNAME = "DR" Select p)
             For Each Me.fields In datas
 
             Next
