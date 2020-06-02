@@ -5,10 +5,20 @@ Namespace BAO
         Dim cmd As New SqlCommand
         Dim ds As DataSet
         Dim da As SqlDataAdapter
+        'Public Function Queryds_xml_drug(ByVal Commands As String) As DataTable
+        '    Dim dt As New DataTable
+        '    Dim str As String = "Data Source=10.111.28.124;Initial Catalog=FDA_XML_DRUG_ESUB;User ID=fusion;Password=P@ssw0rd;"
+        '    Dim MyConnection As New SqlConnection(str)
+        '    Dim mySqlDataAdapter As SqlDataAdapter = New SqlDataAdapter(Commands, MyConnection)
+        '    mySqlDataAdapter.Fill(dt)
+        '    MyConnection.Close()
+        '    Return dt
+        'End Function
         Public Function Queryds_xml_drug(ByVal Commands As String) As DataTable
             Dim dt As New DataTable
-            Dim str As String = "Data Source=10.111.28.124;Initial Catalog=FDA_XML_DRUG_ESUB;User ID=fusion;Password=P@ssw0rd;"
-            Dim MyConnection As New SqlConnection(str)
+            Dim MyConnection As SqlConnection = New SqlConnection(ConfigurationManager.ConnectionStrings("FDA_XML_DRUG_ESUBConnectionString1").ConnectionString)
+            'Dim str As String = "Data Source=10.111.28.124;Initial Catalog=FDA_XML_DRUG_ESUB;User ID=fusion;Password=P@ssw0rd;"
+            'Dim MyConnection As New SqlConnection(str)
             Dim mySqlDataAdapter As SqlDataAdapter = New SqlDataAdapter(Commands, MyConnection)
             mySqlDataAdapter.Fill(dt)
             MyConnection.Close()
