@@ -112,12 +112,12 @@ Public Class WS_DRUG
             des_log(Newcode, IDENTIFY_EDIT, des, ex.Message)
             Content = Newcode & " : " & des
 
-            'SendMail(Content, "therdsak.b@fsa.co.th", title) 'พี่ x
-            'SendMail(Content, "puwadol.t@fsa.co.th", title) 'พี่บิ๊ก
-            'SendMail(Content, "supaporn.s@fsa.co.th", title) 'ทราย
-            'SendMail(Content, "koeza2009@gmail.com", title) 'ก้อ
-            'SendMail(Content, "amornsak.y@fsa.co.th", title) 'นน
-            'SendMail(Content, "moszazeed9@gmail.com", title) 'มอส
+            SendMail(Content, "therdsak.b@fsa.co.th", title) 'พี่ x
+            SendMail(Content, "puwadol.t@fsa.co.th", title) 'พี่บิ๊ก
+            SendMail(Content, "supaporn.s@fsa.co.th", title) 'ทราย
+            SendMail(Content, "koeza2009@gmail.com", title) 'ก้อ
+            SendMail(Content, "amornsak.y@fsa.co.th", title) 'นน
+            SendMail(Content, "moszazeed9@gmail.com", title) 'มอส
             msg = "ERROR"
 
 
